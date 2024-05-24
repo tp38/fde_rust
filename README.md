@@ -5,7 +5,7 @@ For me, it was just an exercice to learn Rust
 
 ## Installation
 
-Just use cargo to build and run fde. You need to indicate an option. On the first run, perhaps you can use -h (--help) :
+Just use cargo to build and run fde. You need to indicate an option. On the first run, perhaps you can use -h (--help) :    
     > $ cargo run - help
 
 ```
@@ -38,7 +38,7 @@ th@6po:~/Code/Rust/fde$
 
 ### input a day result
 
-Just run cargo run with -d option end use m option to modify the default objet
+Just run cargo run with -d option end use m option to modify the default objet :    
     > $ cargo run - -d=24/05/2024
 
 ```
@@ -66,7 +66,7 @@ th@6po:~/Code/Rust/fde$
 
 ### display month result
 
-Just run fde with -m option :
+Just run fde with -m option :    
     > $ cargo run - -m=24/05/2024
 
 ```
