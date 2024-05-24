@@ -34,19 +34,19 @@ fn main() -> () {
     for arg in args.iter() {
         match arg.as_str() {
             x if x.contains("fde") => Dialog::show_welcome(),
-            "--help" | "-h" => Dialog::show_help(),
+            x if x.contains("--help") | x.contains("-h") => Dialog::show_help(),
             x if x.contains("--month") | x.contains("-m") => {
                 match NaiveDate::parse_from_str( extract_date(&x), "%d/%m/%Y" ) {
                     Ok(x) => get_month( x ),
                     Err(_) => get_month( today ),
                 }
-            }
+            },
             x if x.contains("--day") | x.contains("-d") => {
                 match NaiveDate::parse_from_str( extract_date(&x), "%d/%m/%Y" ) {
                     Ok(x) => process_day( x ),
                     Err(_) => println!("erreur dans NaiveDate::parse_from_str ..."),
                 }
-            }
+            },
             _ => println!("commande inconnue! fin du programme ..."),
         }
     }

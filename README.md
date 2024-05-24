@@ -16,8 +16,6 @@ th@6po:~/Code/Rust/fde$ cargo run - -h
 
         fde est un programe permettant de suivre l'activité de Nat.
         Thierry Probst <thierry.probst@free.fr> v1.0.0 du 23/04/2023
-        
-commande inconnue! fin du programme ...
 
         Usage : ./fde [option]
         Options :
@@ -50,8 +48,7 @@ th@6po:~/Code/Rust/fde$ cargo run - -d=24/05/2024
 
         fde est un programe permettant de suivre l'activité de Nat.
         Thierry Probst <thierry.probst@free.fr> v1.0.0 du 23/04/2023
-        
-commande inconnue! fin du programme ...
+
 (2024-05-24 : 0 [0/0 'None']) a été créé dans la DB
 le Ca sélectionné est : (2024-05-24 : 0 [0/0 'None']), que voulez vous faire ? 
 [s]: sauvegarder, [d]: effacer, [m]: modifier, [q]: quitter
@@ -79,8 +76,6 @@ th@6po:~/Code/Rust/fde$ cargo run - -m=24/05/2024
 
         fde est un programe permettant de suivre l'activité de Nat.
         Thierry Probst <thierry.probst@free.fr> v1.0.0 du 23/04/2023
-        
-commande inconnue! fin du programme ...
 --- Valeurs pour le mois 05-2024 ---
         CA	 =  363.00
         Hours	 =      16
